@@ -5,8 +5,14 @@ def print_formatted(n):
 if __name__ == '__main__':
     n = int(input())
     print_formatted(n)
+# d-decimal
+# o-octal
+# X-hexadecimal
+# b-binary    
     
 #...................................................OR...................................................
+
+
 """
 def print_formatted(N):
     width = len(bin(N)[2:])
